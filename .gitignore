@@ -1,0 +1,7 @@
+# Arduino IDE
+*.elf
+*.hex
+*.ino.cpp
+*.ino.hex
+/build/
+/build-tmp/
