@@ -27,16 +27,5 @@ O sistema segue o padrão clássico da técnica Pomodoro:
 * **Display:** LCD 20x4 com módulo I2C
 * **Conexões:** Jumpers e Protoboard
 
-## 🔌 Esquema de Ligação (I2C)
-
-A comunicação via protocolo I2C simplifica a montagem, utilizando apenas 2 pinos de dados do Arduino.
-
-| Pino LCD | Pino Arduino Uno | Função |
-| :--- | :--- | :--- |
-| **VCC** | 5V | Alimentação |
-| **GND** | GND | Terra |
-| **SDA** | A4 | Dados (Serial Data) |
-| **SCL** | A5 | Clock (Serial Clock) |
-
 ---
 Desenvolvido por **Carolina Peruare**.
