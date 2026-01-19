@@ -44,9 +44,8 @@ void loop() {
       horas++;
     }
     
-    // Transição Foco <-> Pausa
-    
-      if(emPausa == false && segundos == 30){ 
+
+      if(emPausa == false && minutos == 25){ 
       emPausa = true; 
       minutos = 0;
       segundos = 0;
@@ -54,7 +53,7 @@ void loop() {
     }
     
   
-    else if (emPausa == true && segundos == 30) {
+    else if (emPausa == true && minutos == 5) {
        emPausa = false; 
        minutos = 0;
        segundos = 0;
