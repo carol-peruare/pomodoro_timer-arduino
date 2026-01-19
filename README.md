@@ -23,7 +23,7 @@ O sistema segue o padrão clássico da técnica Pomodoro:
 
 ## 🛠 Hardware Utilizado
 
-* **Microcontrolador:** Arduino Uno (ou compatível)
+* **Microcontrolador:** Arduino Uno 
 * **Display:** LCD 20x4 com módulo I2C
 * **Conexões:** Jumpers e Protoboard
 
